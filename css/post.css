@@ -1,0 +1,154 @@
+.text-align-c{
+    text-align: center;
+}
+/************ WHOLE DIV ************/
+
+/************************ MAIN CONTENT ************************/
+
+.page-title{
+  width: 100%;
+}
+/************ POST  ************/
+.post{
+    width: 100%;
+    padding: var(--padding-tb-min) var(--padding-rl-min);
+}
+.post-title {
+    width: max-content;
+    margin: 0 auto;
+    border-bottom: 5px dotted var(--span-dark);
+}
+.post-slider{
+    width: 100%;
+}
+.post-slider-content{
+    width: 100%;
+    position: relative;
+    text-decoration: none;
+    padding: 0 var(--padding-rl-min);
+}
+.post-slider-content .post-slider-img,
+.post-slider-img img{
+    width: 100%;
+    opacity: 1;
+    object-fit: cover;
+}
+.post-slider-content .post-slider-text{
+    width: 100%;
+    transform: translate(0%,-100%);
+    text-align: center;
+    cursor: none;
+    padding: 0 var(--padding-rl-min);
+}
+.col-post{
+    width: 100%;
+    height: 100%;
+}
+.col-post .post-img, .post-img img{
+    width: 100%;
+}
+.col-post .post-text{
+    width: 100%;
+}
+.post-text h1,h2,h3,h4,h5,h6,p{
+    padding: 5px;
+} 
+/************  END OF POST  ************/
+
+
+/************ RECOMMENDED  ************/
+.recmd{
+    width: 100%;
+}
+.recmd-inner{
+    width: 100%;
+}
+.recmd-col{
+    width: 100%;
+    height: 100%;
+}
+.recmd-img, .recmd-text {
+    width: 100%;
+}
+.recmd-text{
+    padding: var(--padding-tb-min) 0;
+}
+.recmd-img img{
+    width: 100%;
+}
+.recmd-text-inner{
+    width: 100%;
+    padding: var(--padding-tb-min) 0;
+    border-top: 1px solid var(--span-dark);
+    /* border-bottom: 1px solid var(--span-dark); */
+}
+/************  END OF RECOMMENDED  ************/
+
+
+/************ LIKE  ************/
+.like{
+    width: 100%;
+}
+.like{
+    width: 100%;
+}
+.like-inner{
+    width: 100%;
+}
+.like-col{
+    width: 100%;
+    height: 100%;
+}
+.like-img, .like-text {
+    width: 100%;
+}
+.like-text{
+    padding: var(--padding-tb-min) 0;
+}
+.like-img img{
+    width: 100%;
+}
+/************  END OF LIKE  ************/
+
+
+/************************ SIDE CONTENT ************************/
+.col-r-post{
+    width: 100%;
+}
+/* RECENT POST */
+.recent-col{
+    width: 100%;
+}
+.recent-col-title{
+    width: 100%;
+    padding: var(--padding-tb-min) 0;
+}
+.rec-post{
+    width: 100%;
+    display: flex;
+}
+.rec-post-img,.rec-post-text{
+    width: 50%;
+}
+.rec-post-img img{
+    width: 100%;
+}
+/* TOP POST */
+
+.top-col{
+    width: 100%;
+}
+.top-col-title{
+    width: 100%;
+    padding: var(--padding-tb-min) 0;
+}
+.top-post{
+    width: 100%;
+    display: flex;
+}
+.top-post-img,.top-post-text{
+    width: 50%;
+}
+.top-post-img img{
+    width: 100%;
+}
